@@ -1,0 +1,49 @@
+{
+    "html": {
+        "avatarOverlay": "Editer"
+    },
+    "js": {
+        "login": {
+            "error": {
+                "invalidValue": "* Valeur incorrect",
+                "requiredValue": "* Requis",
+                "userMigrated": {
+                    "title": "Erreur lors de l'authentification:<br>Identifiants invalides",
+                    "desc": "Vous venez d'essayer de vous connecter avec un compte migré. Essayez en utilisant l'authentification par compte Microsoft."
+                },
+                "invalidCredentials": {
+                    "title": "Erreur lors de l'authentification:<br>Identifiants invalides",
+                    "desc": "Le mail ou le mot de passe entrée est incorrect. Merci de réessayer."
+                },
+                "rateLimit": {
+                    "title": "Erreur lors de l'authentification:<br>Trop de tentatives",
+                    "desc": "Il y a eu trop de tentatives... merci de réessayer plus tard."
+                },
+                "noInternet": {
+                    "title": "Erreur lors de l'authentification:<br>Erreur de connexion",
+                    "desc": "Vous devez être connecté à Internet pour vous identifier. Merci de réessayer après avoir vérifié votre connexion."
+                },
+                "authDown": {
+                    "title": "Erreur lors de l'authentification:<br>Serveur d'authentification HS",
+                    "desc": "Il n'y a rien à faire que d'attendre..."
+                },
+                "notPaid": {
+                    "title": "Erreur lors de l'authentification:<br>Aucun jeu.",
+                    "desc": "Votre compte ne possède pas Minecraft... merci de l'acheter avant de pouvoir venir jouer."
+                },
+                "unknown": {
+                    "title": "Erreur lors de l'authentification:<br>Inconnu..."
+                }
+            },
+            "login": "S'identifier",
+            "loggingIn": "Identification",
+            "success": "Connecté !",
+            "tryAgain": "Essayer encore"
+        },
+        "landing": {
+            "launch": {
+                "pleaseWait": "Merci de patienter..."
+            }
+        }
+    }
+}
