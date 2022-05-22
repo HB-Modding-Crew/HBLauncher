@@ -18,7 +18,7 @@
 * ☕ **Installation de Java automatiquement**
   * Vérification et installation de Java si requi rien que *pour vous*.
   * Pas besoin d'avoir Java pour lancer le Launcher.
-* 📰 Les News du Pokemon directement sur le Launcher.
+* 📰 Les News d'HB directement sur le Launcher. [A VENIR]
 
 #### Besoin d'iade? [Venez voir le wiki.][wiki]
 
