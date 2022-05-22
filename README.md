@@ -1,4 +1,4 @@
-<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
+<p align="center"><img src="./app/assets/images/icon.jpg" width="150px" height="150px" alt="aventium softworks"></p>
 
 <h1 align="center">Herobrine.FR Launcher</h1>
 
