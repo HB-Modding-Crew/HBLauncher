@@ -459,16 +459,7 @@ class JavaGuard extends EventEmitter {
                 let verString = props[i].split('=')[1].trim()
                 console.log(props[i].trim())
                 const verOb = JavaGuard.parseJavaRuntimeVersion(verString)
-                if(verOb.major < 9){
-                    // Java 8
-                    if(verOb.major === 8 && verOb.update > 52){
-                        meta.version = verOb
-                        ++checksum
-                        if(checksum === goal){
-                            break
-                        }
-                    }
-                } else if(verOb.major >= 16) {
+                if(verOb.major >= 16) {
                     // TODO Make this logic better. Make java 16 required.
                     // Java 9+
                     if(Util.mcVersionAtLeast('1.17.1', this.mcVersion)){
@@ -807,8 +798,6 @@ class JavaGuard extends EventEmitter {
             // Do a manual file system scan of program files.
             pathSet1 = new Set([
                 ...pathSet1,
-                ...(await JavaGuard._scanFileSystem('C:\\Program Files\\Java')),
-                ...(await JavaGuard._scanFileSystem('C:\\Program Files\\Eclipse Foundation')),
                 ...(await JavaGuard._scanFileSystem('C:\\Program Files\\AdoptOpenJDK'))
             ])
         }
@@ -1544,7 +1533,7 @@ class AssetGuard extends EventEmitter {
 
     _enqueueOpenJDK(dataDir){
         return new Promise((resolve, reject) => {
-            JavaGuard._latestOpenJDK('8').then(verData => {
+            JavaGuard._latestOpenJDK('16').then(verData => {
                 if(verData != null){
 
                     dataDir = path.join(dataDir, 'runtime', 'x64')

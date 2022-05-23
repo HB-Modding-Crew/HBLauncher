@@ -1328,9 +1328,9 @@ function populateJavaExecDetails(execPath){
         if(v.valid){
             const vendor = v.vendor != null ? ` (${v.vendor})` : ''
             if(v.version.major < 9) {
-                settingsJavaExecDetails.innerHTML = `Selected: Java ${v.version.major} Update ${v.version.update} (x${v.arch})${vendor}`
+                settingsJavaExecDetails.innerHTML = `Sélectionné: Java ${v.version.major} Update ${v.version.update} (x${v.arch})${vendor}`
             } else {
-                settingsJavaExecDetails.innerHTML = `Selected: Java ${v.version.major}.${v.version.minor}.${v.version.revision} (x${v.arch})${vendor}`
+                settingsJavaExecDetails.innerHTML = `Sélectionné: Java ${v.version.major}.${v.version.minor}.${v.version.revision} (x${v.arch})${vendor}`
             }
         } else {
             settingsJavaExecDetails.innerHTML = 'Invalid Selection'
