@@ -49,7 +49,7 @@ Faites attention quand vous utilisez la console et faites confiance à 100% à l
 
 ## Ressources
 
-* [Répo Original](https://github.com/dscalzi/HeliosLauncher)
+* [Répo Original](https://github.com/rhenar0/HBLauncher)
 
 ---
 
