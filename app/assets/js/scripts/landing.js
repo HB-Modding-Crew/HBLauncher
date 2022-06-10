@@ -222,8 +222,8 @@ const refreshServerStatus = async function(fade = false){
     loggerLanding.log('Refreshing Server Status')
     const serv = DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
 
-    let pLabel = 'SERVER'
-    let pVal = 'OFFLINE'
+    let pLabel = 'SERVEUR'
+    let pVal = 'HORS-LIGNE'
 
     try {
         const serverURL = new URL('my://' + serv.getAddress())
