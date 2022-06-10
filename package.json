@@ -5,9 +5,9 @@
   "description": "Launcher du serveur Herobrine.FR",
   "author": "Daniel Scalzi (https://github.com/dscalzi/) & Rhenar (https://github.com/rhenar0/",
   "license": "MIT",
-  "homepage": "https://github.com/rhenar0/HBLauncher",
+  "homepage": "https://github.com/HB-Modding-Crew/HBLauncher",
   "bugs": {
-    "url": "https://github.com/rhenar0/HBLauncher/issues"
+    "url": "https://github.com/HB-Modding-Crew/HBLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhenar0/HBLauncher.git"
+    "url": "git+https://github.com/HB-Modding-Crew/HBLauncher.git"
   }
 }
