@@ -20,8 +20,6 @@
   * Pas besoin d'avoir Java pour lancer le Launcher.
 * 📰 Les News d'HB directement sur le Launcher. [A VENIR]
 
-#### Besoin d'iade? [Venez voir le wiki.][wiki]
-
 #### Vous aimez le projet ? Laissez ⭐ une étoile sur le répo !
 
 ## Téléchargement
@@ -39,7 +37,7 @@ Vous pouvez le télécharger ici [GitHub Releases](https://github.com/rhenar0/HB
 
 ## Console
 
-Pour ouvrir la console de debug.
+Pour ouvrir la console de debug :
 
 ```console
 ctrl + shift + i
